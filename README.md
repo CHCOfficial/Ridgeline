@@ -3,7 +3,8 @@
   <sub>Version 1.0.0 · Momentum, drawn in lines.</sub>
 </p>
 
-![RIDGELINE running at 2560 × 1080](assets/screenshots/06-gameplay.png)
+<img width="2784" height="1368" alt="SCR-20260727-ogoz" src="https://github.com/user-attachments/assets/c3bdbfa3-fd5a-4a2f-b9df-0a50d1cbf2bd" />
+
 
 RIDGELINE is a minimalist native 3D arcade game about guiding a rolling sphere across an endless procedural wireframe landscape. Read the terrain, carry momentum through its valleys, collect lights, and keep the run alive for as long as possible.
 
