@@ -16,6 +16,8 @@ The game is written in Rust and rendered with `wgpu`. Terrain, physics, collecti
 
 <img width="1194" height="416" alt="SCR-20260727-maah" src="https://github.com/user-attachments/assets/3e4957f1-6beb-4177-a89d-8ba2db216d9f" />
 
+It is ad-hoc signed rather than Apple-notarized, so downloaded copies may initially require right-clicking the application and selecting Open.
+
 
 ## Highlights
 
