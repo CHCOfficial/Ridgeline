@@ -1,0 +1,6 @@
+/target
+/dist
+/Port/web/node_modules
+/Port/web/dist
+*.log
+.DS_Store
