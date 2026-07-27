@@ -9,7 +9,13 @@
 
 RIDGELINE is a minimalist native 3D arcade game about guiding a rolling sphere across an endless procedural wireframe landscape. Read the terrain, carry momentum through its valleys, collect lights, and keep the run alive for as long as possible.
 
+<img width="1392" height="684" alt="SCR-20260727-pdin" src="https://github.com/user-attachments/assets/1a9031f3-97a6-4f52-9480-bf4adffb348e" />
+
+
 The game is written in Rust and rendered with `wgpu`. Terrain, physics, collectible routes, and progression are generated and simulated locally without a game engine.
+
+<img width="1194" height="416" alt="SCR-20260727-maah" src="https://github.com/user-attachments/assets/3e4957f1-6beb-4177-a89d-8ba2db216d9f" />
+
 
 ## Highlights
 
