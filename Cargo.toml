@@ -1,0 +1,31 @@
+[package]
+name = "ridgeline"
+version = "1.0.0"
+edition = "2021"
+description = "A minimalist endless 3D rolling arcade game"
+license-file = "LICENSE"
+
+[dependencies]
+bytemuck = { version = "1.25", features = ["derive"] }
+egui = "0.28"
+egui-wgpu = "0.28"
+egui-winit = { version = "0.28", default-features = true }
+env_logger = "0.11"
+gilrs = "0.11"
+glam = { version = "0.27", features = ["bytemuck"] }
+log = "0.4"
+pollster = "0.3"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+rodio = { version = "0.20", default-features = false, features = ["mp3"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+wgpu = "0.20"
+winit = { version = "0.29", features = ["rwh_06"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
