@@ -216,7 +216,3 @@ The source code is free to use under the attribution terms in [`LICENSE`](LICENS
 above must remain with copies and derivatives. Copyright and all other rights to the supplied
 audio, embedded cover artwork, application icons, screenshots, and graphic assets are reserved by
 CHCOfficial.
-
-## Ports
-
-- [`Port/web`](Port/web/README.md) — a playable Three.js/Vite edition designed for static deployment, including Vercel configuration and browser-local progression.
